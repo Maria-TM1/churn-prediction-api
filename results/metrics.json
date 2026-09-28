@@ -1,0 +1,43 @@
+{
+  "baseline_dummy_cv_auc": 0.5215350508762719,
+  "logistic_regression_cv_auc": 0.4974900538763469,
+  "random_forest_cv_auc": 0.4859750597514938,
+  "test": {
+    "accuracy": 0.512,
+    "f1": 0.5158730158730159,
+    "auc": 0.533616,
+    "n_train": 2000,
+    "n_test": 500,
+    "best_params": {
+      "model__n_estimators": 300,
+      "model__min_samples_split": 5,
+      "model__min_samples_leaf": 1,
+      "model__max_features": "sqrt",
+      "model__max_depth": 10
+    }
+  },
+  "confusion_matrix": [
+    [
+      126,
+      124
+    ],
+    [
+      120,
+      130
+    ]
+  ],
+  "n_features": 11,
+  "feature_columns": [
+    "age",
+    "tenure_months",
+    "num_streams_per_week",
+    "avg_watch_time_hours",
+    "support_tickets_last_6m",
+    "auto_renew",
+    "engagement",
+    "country",
+    "device",
+    "plan_type",
+    "payment_method"
+  ]
+}

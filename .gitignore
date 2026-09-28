@@ -1,0 +1,24 @@
+# Secrets
+.env
+*.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data and model artifacts (not published)
+data/
+*.joblib
+*.pkl
+engagement_bounds.json
+
+# MLflow
+mlruns/
+mlflow_experimento.json
+
+# OS
+.DS_Store
+Thumbs.db
